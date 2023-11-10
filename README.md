@@ -10,7 +10,7 @@ The dataset was collected by the HR department, capturing a wide range of inform
 
 ![Scatter plot of average_monthly_hours v tip amount](images/hours_promotion.png)
 
-A `two-sample t-test` was also carried out that revealed there was a `statistically` significant `difference` in the average total fare amount between customers who use credit cards and customers who use cash. Purpose of the A/B test was to find ways to generate more revenue for taxi cab drivers. 
+A correlation heatmap was also constructed to confirm that the number of projects, monthly hours, and evaluation scores all have some positive correlation with each other, and whether an employee leaves is negatively correlated with their satisfaction level.
 
 # Modeling and Evaluation
 For trip duration, a `Linear Regression` was constructed that achieved an R-squared value of 0.7319, which suggests that it explains approximately 73% of the variance in the dependent variable **trip duration**. And as for predicting generous tippers, `XGBoost` model that achieved precision of 70%, recall of 48%, f1-score of 57%, and accuracy of 74%, on the test set outperformed the RandomForest Model constructed before. In the final model, `duration`, `trip_distance`, `fare_amount`, `extra` and `passenger_count` had the highest importance, in that order. These variables were most helpful in predicting the outcome variable, **generous**.
