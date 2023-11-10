@@ -19,7 +19,11 @@ In the comparative analysis between logistic regression and tree-based models (r
 ![Feature Importance of XGBoost](images/feature_importance.png)
 
 # Conclusion
-Type II errors `false negative` were more common in the final predictive model. For this use case, this was more desirable, because it's better for a driver to be pleasantly surprised by a generous tip when they weren't expecting one than to be disappointed by a low tip when they were expecting a generous one. The model has the potential to assist taxi drivers in anticipating whether they will receive generous tips, but it does not provide a detailed understanding of how each variable affects the exact tip amount. In the future, enhancing the model with additional data related to a rider's historical tipping patterns could prove advantageous in addressing the stakeholder's business challenges.
+The developed XGBoost model not only demonstrated high accuracy but also provided valuable insights into the critical factors influencing employee turnover. Feature importance analysis highlighted key variables, including last_evaluation, number_project, tenure, salary_low, and overworked, guiding actionable recommendations for HR strategies. In the future, enhancing the model with additional data related to a rider's historical tipping patterns could prove advantageous in addressing the stakeholder's business challenges.
+
+### Conclusion, Recommendations, Next Steps
+The data-driven analysis has provided valuable insights into the factors influencing employee turnover at Salifort Motors. The XGBoost model, outperforming other models, has identified critical predictors such as last_evaluation, number_project, tenure, salary levels (especially "salary_low"), and overwork status. Recomendations were made such as considering project delegation, workload balancing, and resource allocation adjustments to reduce overwork. Explore the possibility of predicting other critical factors such as employee performance scores or satisfaction levels.
+Assess whether these alternative targets provide meaningful insights into employee turnover and satisfaction, could be the next steps.
 
 ----
 ----
