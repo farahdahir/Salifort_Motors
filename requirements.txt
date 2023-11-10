@@ -1,0 +1,8 @@
+# For data manipulation
+numpy
+pandas
+matplotlib.pyplot
+seaborn
+xgboost
+sklearn
+pickle
