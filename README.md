@@ -30,6 +30,6 @@ The data-driven analysis has provided valuable insights into the factors influen
 - Install the required libraries from the `requirements.txt` file using pip: `pip install -r requirements.txt`
 
 # Reviewing the Project
-The project has 3 files and 2 folders. The `salifort_motors.ipynb` is the main notebook for the project. It is divided into sections aigning with the PACE frame-work Plan, Analyse, Construct and Execute. For the Construct stage some code cells are commented out, where the predictive models are fitted to save you time. This does not affect the overral work flow of the project, since the models were fitted and saved as pickle files.
+The project has 3 files and 2 folders. The `salifort_motors.ipynb` is the main notebook for the project. It is divided into sections alining with the PACE frame-work Plan, Analyse, Construct and Execute. For the Construct stage some code cells are commented out, where the predictive models are fitted to save you time. This does not affect the overral work flow of the project, since the models were fitted and saved as pickle files.
 
 The project also includes an images folder and data folder. Remember all datasets are stored in the data folder along with the pickled models.
