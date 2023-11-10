@@ -10,10 +10,10 @@ The dataset was collected by the HR department, capturing a wide range of inform
 
 ![Scatter plot of average_monthly_hours v tip amount](images/hours_promotion.png)
 
-A correlation heatmap was also constructed to confirm that the number of projects, monthly hours, and evaluation scores all have some positive correlation with each other, and whether an employee leaves is negatively correlated with their satisfaction level.
+A correlation heatmap was also constructed to confirm that the number of projects, monthly hours, and evaluation scores all had some positive correlation with each other, and whether an employee leaves was negatively correlated with their satisfaction level.
 
 # Modeling and Evaluation
-For trip duration, a `Linear Regression` was constructed that achieved an R-squared value of 0.7319, which suggests that it explains approximately 73% of the variance in the dependent variable **trip duration**. And as for predicting generous tippers, `XGBoost` model that achieved precision of 70%, recall of 48%, f1-score of 57%, and accuracy of 74%, on the test set outperformed the RandomForest Model constructed before. In the final model, `duration`, `trip_distance`, `fare_amount`, `extra` and `passenger_count` had the highest importance, in that order. These variables were most helpful in predicting the outcome variable, **generous**.
+In the comparative analysis between logistic regression and tree-based models (random forest and xgboost) for predicting employee turnover, XGBoost emerged as the most effective model based on its superior performance on the validation dataset. The `XGBoost` model achieved AUC of 93.9%, precision of 89.3%, recall of 89.9%, f1-score of 89.6%, and accuracy of 96.5%, on the test set. In the final model, `last_evaluation`, `number_project`, `tenure`, `salary_low` and `overworked` had the highest importance, in that order. These variables are most helpful in predicting the outcome variable, **left**.
 
 
 ![Accuracy score of the models](images/importance_plot.png)
