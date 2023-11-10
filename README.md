@@ -6,10 +6,9 @@
 The HR department, recognizing the impact of high turnover on operational stability and costs, seeks to leverage data-driven insights to proactively enhance employee satisfaction and retention. The project aims to discover data-driven insights to inform strategic decisions, improve the working environment, and ultimately `reduce employee turnover`. By viewing data as a strategic asset, Salifort Motors aims to optimize HR practices, placing employees at the center of organizational success.
 
 # Data Understanding
-The dataset was collected by the HR department, capturing a wide range of information pertaining to employees' professional activities, evaluations, projects, tenure, salaries, and overall satisfaction levels. Understanding the significance of each variable and the relationship between them were discoved in `Exploratory data analysis`. The Bar plot below shows the relationship between passenger count and tip amount, excluding 0, rides with 5 passengers had the highest average tip amount ($1.87), followed by rides with 2 passengers ($1.86). It was clear that the number of passengers had some influence on the average tip amount, with larger groups tending to leave slightly higher tips.
+The dataset was collected by the HR department, capturing a wide range of information pertaining to employees' professional activities, evaluations, projects, tenure, salaries, and overall satisfaction levels. Understanding the significance of each variable and the relationship between them were discoved in `Exploratory data analysis`. The scatter plot below shows the relationship between average_monthly_hours and promotion_last_5years, which was used to examine whether employees who worked very long hours were promoted in the last five years. The plot shows that very few employees who worked the most hours were promoted and all of the employees who left were working the longest hours.
 
-
-![Bar plot of passenger count v tip amount](images/passengerCount_tipAmount.png)
+![Scatter plot of average_monthly_hours v tip amount](images/hours_promotion.png)
 
 A `two-sample t-test` was also carried out that revealed there was a `statistically` significant `difference` in the average total fare amount between customers who use credit cards and customers who use cash. Purpose of the A/B test was to find ways to generate more revenue for taxi cab drivers. 
 
